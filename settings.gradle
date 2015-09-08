@@ -1,0 +1,5 @@
+include ':app'
+
+include ':CircularProgessButton'
+project (':CircularProgessButton').projectDir = new File('libs/CircularProgessButton')
+
